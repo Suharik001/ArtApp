@@ -24,13 +24,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0F44025D2D0AF2B5001A47EB /* ArtApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArtApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F4402732D0AF2B6001A47EB /* ArtAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArtAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0F44027D2D0AF2B6001A47EB /* ArtAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArtAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F44025D2D0AF2B5001A47EB /* ArtApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = ArtApp.app; path = "/Users/suharik/Desktop/Development/ArtApp/build/Debug-iphoneos/ArtApp.app"; sourceTree = "<absolute>"; };
+		0F4402732D0AF2B6001A47EB /* ArtAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ArtAppTests.xctest; path = "/Users/suharik/Desktop/Development/ArtApp/build/Debug-iphoneos/ArtApp.app/PlugIns/ArtAppTests.xctest"; sourceTree = "<absolute>"; };
+		0F44027D2D0AF2B6001A47EB /* ArtAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ArtAppUITests.xctest; path = "/Users/suharik/Desktop/Development/ArtApp/build/Debug-iphoneos/ArtAppUITests-Runner.app/PlugIns/ArtAppUITests.xctest"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		0F4402852D0AF2B6001A47EB /* Exceptions for "ArtApp" folder in "ArtApp" target */ = {
+		0FA298D12D0C54AB005E08A3 /* Exceptions for "ArtApp" folder in "ArtApp" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -43,19 +43,9 @@
 		0F44025F2D0AF2B5001A47EB /* ArtApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				0F4402852D0AF2B6001A47EB /* Exceptions for "ArtApp" folder in "ArtApp" target */,
+				0FA298D12D0C54AB005E08A3 /* Exceptions for "ArtApp" folder in "ArtApp" target */,
 			);
 			path = ArtApp;
-			sourceTree = "<group>";
-		};
-		0F4402762D0AF2B6001A47EB /* ArtAppTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ArtAppTests;
-			sourceTree = "<group>";
-		};
-		0F4402802D0AF2B6001A47EB /* ArtAppUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ArtAppUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -89,20 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				0F44025F2D0AF2B5001A47EB /* ArtApp */,
-				0F4402762D0AF2B6001A47EB /* ArtAppTests */,
-				0F4402802D0AF2B6001A47EB /* ArtAppUITests */,
-				0F44025E2D0AF2B5001A47EB /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		0F44025E2D0AF2B5001A47EB /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0F44025D2D0AF2B5001A47EB /* ArtApp.app */,
-				0F4402732D0AF2B6001A47EB /* ArtAppTests.xctest */,
-				0F44027D2D0AF2B6001A47EB /* ArtAppUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,9 +120,6 @@
 			dependencies = (
 				0F4402752D0AF2B6001A47EB /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				0F4402762D0AF2B6001A47EB /* ArtAppTests */,
-			);
 			name = ArtAppTests;
 			packageProductDependencies = (
 			);
@@ -165,9 +139,6 @@
 			);
 			dependencies = (
 				0F44027F2D0AF2B6001A47EB /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				0F4402802D0AF2B6001A47EB /* ArtAppUITests */,
 			);
 			name = ArtAppUITests;
 			packageProductDependencies = (
@@ -209,7 +180,7 @@
 			mainGroup = 0F4402542D0AF2B5001A47EB;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 0F44025E2D0AF2B5001A47EB /* Products */;
+			productRefGroup = 0F4402542D0AF2B5001A47EB;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -294,7 +265,6 @@
 				INFOPLIST_FILE = ArtApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -322,7 +292,6 @@
 				INFOPLIST_FILE = ArtApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
